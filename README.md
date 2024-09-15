@@ -1,40 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a nextJS project created for Nebula9.ai. It involves transcripting call recordings and evaluating the quality of contact center agent calls by
+analyzing tone, sentiment and adherence to the best practices.
+It also provides a Quality Assessment Report with suggestions for improvement.
 
-## Getting Started
+To run this project on your system follow the steps given below: 
+1) Download the zip and open it on your IDE (in my case it is VS CODE)
+2) go to terminal
+3) install dependencies:
+   npm install openai  #installs openai to run the api's
+   rm -rf node_modules  # Remove the existing node_modules folder
+rm package-lock.json  # Remove package-lock.json (optional but recommended)
 
-First, run the development server:
+npm install  # Reinstall dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4) Now check if everything is installed and there are no more dependencies using:
+   npm i
+5) finally go to the .env.local file and add your own OPENAI API KEY
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6) run the development server:
+   npm run dev
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Voila! The project is hosted on your local server, view it on (http://localhost:3000) on your google chrome browser, to view the results.
+Select a sample .mp3 file of a call recording (Or use the one that I have provided in this repository)
+and click on Analyze
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+   
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
