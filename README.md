@@ -6,11 +6,12 @@ To run this project on your system follow the steps given below:
 1) Download the zip and open it on your IDE (in my case it is VS CODE)
 2) go to terminal
 3) install dependencies:
-   npm install openai  #installs openai to run the api's
-   rm -rf node_modules  # Remove the existing node_modules folder
-rm package-lock.json  # Remove package-lock.json (optional but recommended)
+   ```bash
+    npm install openai #installs openai to run the api's
+   rm -rf node_modules # Remove the existing node_modules folder
+   rm package-lock.json  # Remove package-lock.json (optional but recommended)
 
-npm install  # Reinstall dependencies
+   npm install  # Reinstall dependencies
 
 4) Now check if everything is installed and there are no more dependencies using:
    npm i
