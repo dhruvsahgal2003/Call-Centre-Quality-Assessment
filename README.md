@@ -21,7 +21,8 @@ To run this project on your system follow the steps given below:
    npm i
 7) finally go to the .env.local file and add your own OPENAI API KEY
 
-8) run the development server:
+8) run the development server
+   ```
    npm run dev
 
 
