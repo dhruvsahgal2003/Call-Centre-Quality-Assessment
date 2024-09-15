@@ -26,9 +26,9 @@ To run this project on your system follow the steps given below:
    npm run dev
 
 
-Voila! The project is hosted on your local server, view it on (http://localhost:3000) on your google chrome browser, to view the results.
+Voila🎉 The project is hosted on your local server, view it on (http://localhost:3000) on your google chrome browser, to view the results.
 Select a sample .mp3 file of a call recording (Or use the one that I have provided in this repository)
-and click on Analyze
+and click on Analyze and tadaaaa.
 
 
 
