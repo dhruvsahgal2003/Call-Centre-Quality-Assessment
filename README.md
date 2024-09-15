@@ -1,3 +1,4 @@
+Hi👋 I am Dhruv Sahgal a 4th year Btech CSE student, I've made this project in under 200 lines of code😋.
 This is a nextJS project created for Nebula9.ai. It involves transcripting call recordings and evaluating the quality of contact center agent calls by
 analyzing tone, sentiment and adherence to the best practices.
 It also provides a Quality Assessment Report with suggestions for improvement.
