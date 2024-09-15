@@ -12,14 +12,17 @@ To run this project on your system follow the steps given below:
    rm package-lock.json  # Remove package-lock.json (optional but recommended)
 
    npm install  # Reinstall dependencies
+4) Make sure to go locate .env.local and add your own OPENAI API KEY
+   (Contact me at dhruv.sahgal.21cse@bmu.edu.in) if u need help with the API KEY
 
-4) Now check if everything is installed and there are no more dependencies using:
+6) Now check if everything is installed and there are no more dependencies using:
    ```bash
    npm i
-6) finally go to the .env.local file and add your own OPENAI API KEY
+7) finally go to the .env.local file and add your own OPENAI API KEY
 
-7) run the development server:
+8) run the development server:
    npm run dev
+
 
 Voila! The project is hosted on your local server, view it on (http://localhost:3000) on your google chrome browser, to view the results.
 Select a sample .mp3 file of a call recording (Or use the one that I have provided in this repository)
