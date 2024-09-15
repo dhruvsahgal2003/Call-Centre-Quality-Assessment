@@ -1,8 +1,7 @@
 {
-    "functions": {
-      "api/analyze.js": {
-        "maxDuration": 30
-      }
+  "functions": {
+    "api/analyze.js": {
+      "maxDuration": 30
     }
   }
-  
+}
